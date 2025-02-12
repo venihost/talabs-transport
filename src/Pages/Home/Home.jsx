@@ -11,6 +11,7 @@ const Home = () => {
       <Header />
       <HeroSlider />
       <About />
+      
       <Footer />
     </main>
   );
