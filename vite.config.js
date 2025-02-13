@@ -5,10 +5,10 @@ export default defineConfig({
   plugins: [react()],
   base: '/talabs-transport/',
   build: {
+    outDir: 'dist',
+    assetsDir: '',
     rollupOptions: {
-      input: {
-        main: './src/main.jsx'
-      }
+      input: 'index.html'
     }
   }
 })
