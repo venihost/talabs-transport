@@ -1,6 +1,6 @@
 {
   "name": "talabs-transport",
-  "homepage": "https://venihost.github.io/talabs-transport", 
+  "homepage": "https://venihost.github.io/talabs-transport",
   "private": true,
   "version": "0.0.0",
   "type": "module",
