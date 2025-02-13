@@ -14,7 +14,7 @@ import Footer from '../components/Footer/Footer';
 
 const AppRouter = () => {
   return (
-    <Router>
+    <Router basename="/talabs-transport">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -32,4 +32,4 @@ const AppRouter = () => {
   );
 };
 
-export default AppRouter;
+export default AppRouter;export default AppRouter;
